@@ -1,1 +1,22 @@
 // Mixins Here
+
+.flex-column-center(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-center(){
+    display: flex;
+    justify-content: center;
+}
+
+
+.button-styles(@bg-color: @blue, @color: white, @padding: 2% 4%, @rounded: 5px, @border: none){
+background: @bg-color;
+      color: @color;
+      padding:@padding;
+      border-radius: @rounded;
+      border: @border;
+}
