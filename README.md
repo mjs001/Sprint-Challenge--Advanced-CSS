@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+an adaptive website just has set breakpoints everything is not fluid.
+Fully responsive websites are completely fluid and change depending on the size of the screen/window.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means that you design your entire website around a small mobile screen and then design it for desktops. While desktop first means you have the desktop screen in mind first and design the website to be modelled around a desktop screen and then a mobile screen. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It sets 1 rem to equal 10px which makes it to where you can adjust rem by 10s.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+pre-processing is a way to make it easier to write your css by allowing you to write functions, write repeatable code in a fashion that lets you write less code, and by allowing you to nest things it makes your code clearer and easier to read.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love the idea of mixins, it just saves a lot of time. Parametric mixins are difficult.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
