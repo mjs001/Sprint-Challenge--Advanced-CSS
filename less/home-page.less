@@ -73,3 +73,101 @@
     }
   }
 }// home
+
+//header
+header{
+  .flex-column-center();
+    h1{
+      font-size: 3rem;
+    }
+}
+
+.walk{
+  .btn{
+    
+    button{
+      .button-styles();
+      &:hover{
+        background: seagreen;
+        color: yellow;
+      }
+    }
+  }
+}
+
+.container, .home{
+  @media @phone{
+    width: 100vw;
+  }
+ 
+    .intro{
+      @media @phone{
+        width: 100%;
+      }
+        img{
+          @media @phone{
+            border-radius: 8px;
+            width: 100vw;
+          }
+        }
+    
+  }
+    .space-images{
+      .blast{
+        .fade-in-animation-tilt();
+        @media @phone{
+        width: 100vw;
+        opacity: 1;
+
+        }
+      }
+      .sky{
+        .fade-in-animation-tilt();
+        @media @phone{
+          display: none;
+        }
+      }
+      .launch{
+        .fade-in-animation-tilt();
+        @media @phone{
+          display: none;
+        }
+      }
+    }
+    .walk{
+      
+      @media @phone{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 5%;
+      }
+      .walk-text{
+        @media @phone{
+          width: 94vw;
+          padding-top: 4%;
+        }
+      }
+
+      .btn{
+        button{
+          @media @phone{
+            padding: 4% 44%;
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      .walk-img{
+        .grow();
+        @media @phone{
+          width: 94vw;
+          margin-right: 4%;
+        }
+      }
+
+    }
+   
+}
+

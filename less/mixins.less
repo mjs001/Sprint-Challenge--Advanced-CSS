@@ -1,1 +1,40 @@
 // Mixins Here
+
+.flex-column-center(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-center(){
+    display: flex;
+    justify-content: center;
+}
+
+
+.button-styles(@bg-color: @blue, @color: white, @padding: 2% 4%, @rounded: 5px, @border: none){
+background: @bg-color;
+      color: @color;
+      padding:@padding;
+      border-radius: @rounded;
+      border: @border;
+}
+
+.fade-in-animation-tilt(){
+    opacity: .5;
+        &:hover{
+          opacity: 1;
+          transition: all 0.2s ease-in-out;
+          transform: rotate(10deg);
+        }
+}
+
+
+.grow(){
+    transition: all 2s ease-in-out; 
+    &:hover{ 
+        transform: scale(1.1); 
+    }
+
+}

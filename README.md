@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+an adaptive website just has set breakpoints everything is not fluid.
+Fully responsive websites are completely fluid and change depending on the size of the screen/window.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means that you design your entire website around a small mobile screen and then design it for desktops. While desktop first means you have the desktop screen in mind first and design the website to be modelled around a desktop screen and then a mobile screen. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It sets 1 rem to equal 10px which makes it to where you can adjust rem by 10s.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+pre-processing is a way to make it easier to write your css by allowing you to write functions, write repeatable code in a fashion that lets you write less code, and by allowing you to nest things it makes your code clearer and easier to read.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love the idea of mixins, it just saves a lot of time. Parametric mixins are difficult.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -96,21 +107,21 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [ x] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [ x] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [ x] Navigation Styles: Use the `navigation.less` file for styling.
 
-* [ ] Main Content Styles: Use the `home-page.less` file for styling
+* [ x] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [ x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+* [ x] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [x ]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [ x] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
