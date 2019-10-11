@@ -169,6 +169,13 @@ nav a {
   text-decoration: none;
   padding: 1% 2%;
   color: #23293B;
+  font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+  nav a {
+    padding: 1% 3%;
+    font-size: 1.4rem;
+  }
 }
 footer {
   color: #22283B;
@@ -272,15 +279,52 @@ header h1 {
 }
 .container .space-images .blast,
 .home .space-images .blast {
-  width: 100vw;
+  opacity: 0.5;
+}
+.container .space-images .blast:hover,
+.home .space-images .blast:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  transform: rotate(10deg);
+}
+@media (max-width: 500px) {
+  .container .space-images .blast,
+  .home .space-images .blast {
+    width: 100vw;
+    opacity: 1;
+  }
 }
 .container .space-images .sky,
 .home .space-images .sky {
-  display: none;
+  opacity: 0.5;
+}
+.container .space-images .sky:hover,
+.home .space-images .sky:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  transform: rotate(10deg);
+}
+@media (max-width: 500px) {
+  .container .space-images .sky,
+  .home .space-images .sky {
+    display: none;
+  }
 }
 .container .space-images .launch,
 .home .space-images .launch {
-  display: none;
+  opacity: 0.5;
+}
+.container .space-images .launch:hover,
+.home .space-images .launch:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  transform: rotate(10deg);
+}
+@media (max-width: 500px) {
+  .container .space-images .launch,
+  .home .space-images .launch {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .container .walk,
@@ -305,6 +349,14 @@ header h1 {
     padding: 4% 44%;
     margin-bottom: 0;
   }
+}
+.container .walk .walk-img,
+.home .walk .walk-img {
+  transition: all 2s ease-in-out;
+}
+.container .walk .walk-img:hover,
+.home .walk .walk-img:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 500px) {
   .container .walk .walk-img,
